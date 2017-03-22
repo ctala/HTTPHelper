@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace ctala\httphelper\classes;
+namespace ctala\httphelper;
 
 /**
  * Description of HTTPHelper
