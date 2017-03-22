@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ctala\\httphelper\\' => array($baseDir . '/classes'),
+    'ctala\\HTTPHelper' => array($baseDir . '/classes'),
 );
