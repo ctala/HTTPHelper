@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace tbkaaswoogateway\classes;
+namespace ctala\httphelper\classes;
 
 /**
  * Description of HTTPHelper
