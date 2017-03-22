@@ -9,12 +9,12 @@ class ComposerStaticInita894ae8f13ce9c456acb62627795fe68
     public static $prefixLengthsPsr4 = array (
         'c' => 
         array (
-            'ctala\\HTTPHelper\\' => 17,
+            'ctala\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ctala\\HTTPHelper\\' => 
+        'ctala\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),

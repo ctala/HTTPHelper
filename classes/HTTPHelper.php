@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace ctala\HTTPHelper;
+namespace ctala;
 
 /**
  * Description of HTTPHelper
@@ -33,10 +33,12 @@ namespace ctala\HTTPHelper;
  */
 class HTTPHelper {
 
+    public function __construct() {
+        
+    }
                 
 
     function my_http_response_code($response_code = 200) {
-        $this->logger->log_me_wp("Entrando a My HTTP Response con $response_code");
 
         if ($response_code !== NULL) {
 
