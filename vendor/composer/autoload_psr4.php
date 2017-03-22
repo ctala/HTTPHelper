@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ctala\\' => array($baseDir . '/classes'),
+    'ctala\\' => array($baseDir . '/src'),
 );

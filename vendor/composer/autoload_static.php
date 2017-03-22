@@ -16,7 +16,7 @@ class ComposerStaticInita894ae8f13ce9c456acb62627795fe68
     public static $prefixDirsPsr4 = array (
         'ctala\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/classes',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
