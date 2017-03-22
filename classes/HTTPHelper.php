@@ -33,10 +33,10 @@ namespace ctala\httphelper\classes;
  */
 class HTTPHelper {
 
-    var $logger;
+                
 
     function __construct() {
-        $this->logger = new Logger();
+                
     }
 
     function my_http_response_code($response_code = 200) {
