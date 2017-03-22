@@ -35,10 +35,6 @@ class HTTPHelper {
 
                 
 
-    function __construct() {
-                
-    }
-
     function my_http_response_code($response_code = 200) {
         $this->logger->log_me_wp("Entrando a My HTTP Response con $response_code");
 
@@ -127,7 +123,6 @@ class HTTPHelper {
             $protocol = (isset($_SERVER['SERVER_PROTOCOL']) ? $_SERVER['SERVER_PROTOCOL'] : 'HTTP/1.0');
 
             $header = $protocol . ' ' . $response_code . ' ' . $text;
-            $this->logger->log_me_wp("Header " . $header);
             header($header);
             die($text);
         }
