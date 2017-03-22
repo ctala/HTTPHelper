@@ -2,6 +2,7 @@
     "name": "ctala/http-helper",
     "description": "Helper para respuestas HTTP",
     "type": "library",
+    "keywords": ["extension"," libreria","library"],
     "license": "MIT",
     "authors": [
         {
